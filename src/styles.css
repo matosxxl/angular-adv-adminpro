@@ -16,3 +16,10 @@
     display: flex;
     justify-content: center;
 }
+
+.img-avatar {
+    height: 240px;
+    width: 200px;
+    padding: 10px;
+    align-content: center;
+}
