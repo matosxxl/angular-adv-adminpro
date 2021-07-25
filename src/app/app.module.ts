@@ -10,7 +10,6 @@ import { AppComponent } from './app.component';
 
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { ComponentsModule } from './components/components.module';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +20,7 @@ import { ComponentsModule } from './components/components.module';
     AppRoutingModule,
     PagesModule,
     AuthModule,
-    ComponentsModule
+    ComponentsModule,
   ],
   bootstrap: [AppComponent]
 })
